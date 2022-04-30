@@ -65,7 +65,16 @@ public class Final {
                 }
         }
         else if(x==3){
-             System.out.println("3. Problema 3");
+             Scanner entrada = new Scanner (System.in);
+             System.out.println("Ingrese el número de vacas");
+             int nvacas = entrada.nextInt();
+             Scanner entrada2 = new Scanner (System.in);
+             System.out.println("Ingrese el peso limite del camión en kilogramos");
+             int pesomaximo = entrada2.nextInt();
+             int peso_vacas []={223,243,100,200,200,155,300,150};
+             int leche []={30,34,28,45,31,50,29,1};
+             
+             
         }
         else if(x==4){
             System.exit(0);
